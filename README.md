@@ -4,7 +4,7 @@ This package provides both the [mango-node](https://github.com/mango/mango-node)
 ## Install
 Using Meteor's Package System:
 ~~~sh
-$ meteor add mrgalaxy:stripe
+$ meteor add meteorba:mango
 ~~~
 
 In the client, you will have access to the `Mango` object from the [JavaScript SDK](https://developers.getmango.com/en/tools/javascript-sdk/).
