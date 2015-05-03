@@ -1,4 +1,4 @@
-#Meteor Mango
+## Meteor Mango
 This package provides both the [mango-node](https://github.com/mango/mango-node) and [JavaScript SDK](https://developers.getmango.com/en/tools/javascript-sdk/) to work with [Mango](https://getmango.com)
 
 ## Install
@@ -7,6 +7,7 @@ Using Meteor's Package System:
 $ meteor add meteorba:mango
 ~~~
 
+## JavaScript SDK
 In the client, you will have access to the `Mango` object from the [JavaScript SDK](https://developers.getmango.com/en/tools/javascript-sdk/).
 ~~~js
 Mango.setPublicKey('my_public_api_key');
@@ -14,6 +15,7 @@ Mango.token.create(cardInfo, handleResponse);
 ...
 ~~~
 
+## Node Library
 In the server, you will have access to the `mango` variable, which equals to `require('mango')` in [mango-node npm package](https://github.com/mango/mango-node) examples.
 
 Using the mango-node in the server:
