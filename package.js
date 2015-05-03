@@ -2,9 +2,9 @@ Package.describe({
   name: 'meteorba:mango',
   version: '0.0.0',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Easily work in Meteor with Mango\'s JS SDK and Node library',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/MeteorBA/mango',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
