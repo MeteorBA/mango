@@ -8,8 +8,9 @@ Mango.token.create(cardInfo, handleResponse);
 ...
 ~~~
 
-In the server, you will have access to the `mango` variable, which equals to the `require('mango')` example in [mango-node npm package](https://github.com/mango/mango-node).
-Example:
+In the server, you will have access to the `mango` variable, which equals to `require('mango')` in [mango-node npm package](https://github.com/mango/mango-node) examples.
+
+Using the mango-node in the server:
 ~~~
 var mangoAPI = mango({ 'api_key': 'your Mango secret API key'});
 mangoAPI.Charges.create({
