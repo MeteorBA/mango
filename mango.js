@@ -1,0 +1,1 @@
+mango = Npm.require('mango');
