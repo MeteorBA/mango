@@ -1,6 +1,6 @@
 Package.describe({
   name: 'meteorba:mango',
-  version: '0.0.0',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Easily work in Meteor with Mango\'s JS SDK and Node library',
   // URL to the Git repository containing the source code for this package.
@@ -27,5 +27,5 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-  'mango': '0.0.0'
+  'mango': '0.0.3'
 })
